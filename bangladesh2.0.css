@@ -287,9 +287,7 @@ th {
   color: white;
 }
 .donates {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 2px 80px;
   margin-bottom: 80px;
 }
 .donate h1 {
@@ -297,6 +295,56 @@ th {
   justify-content: center;
   align-items: center;
 }
+.donatetext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 17px;
+}
+.donateamount {
+  display: flex;
+  justify-content: center;
+}
+.donateamount div {
+  padding: 20px 30px;
+  border: 1px solid gray;
+  margin: 10px 30px;
+  border-radius: 12px;
+  font-size: x-large;
+  font-weight: 600;
+}
+.donateamount div:nth-of-type(2) {
+  background-color: rgba(198, 228, 214, 1);
+}
+.inputamount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 20px 30px;
+}
+.inputamount input {
+  border: none;
+  padding: 20px 300px;
+  border-bottom: 1px solid grey;
+  font-size: 20px;
+  text-align: center;
+}
+.donate-btn {
+  display: flex;
+  justify-content: center;
+}
+.donate-btn button {
+  padding: 15px 30px;
+  font-size: large;
+  font-weight: 600;
+  background-color: rgba(0, 106, 80, 1);
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
 .newsletter {
   margin-bottom: 80px;
 }
