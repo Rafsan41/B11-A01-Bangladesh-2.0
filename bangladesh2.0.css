@@ -255,6 +255,9 @@ th {
   margin-bottom: 40px;
   padding: 20px 50px;
 }
+.news h1 {
+  font-size: 30px;
+}
 .newscontent {
   display: flex;
   justify-content: center;
