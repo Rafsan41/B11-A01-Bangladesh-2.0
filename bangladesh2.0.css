@@ -9,13 +9,14 @@
   justify-content: space-between;
   align-items: center;
   height: 8%;
-  padding: 20px 10px;
-  background-color: rgb(226, 243, 236);
+  padding: 10px 30px;
+  margin: 2px 30px;
+  background-color: rgb(237, 247, 243);
 }
 .logo {
   color: black;
   font-size: x-large;
-  font-weight: 900;
+  font-weight: 700;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .signin {
@@ -251,10 +252,50 @@ th {
 }
 
 .news {
+  margin-bottom: 40px;
+  padding: 20px 50px;
+}
+.newscontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  margin: 30px 2px;
+  background-color: azure;
+  border-radius: 12px;
+}
+.newscontent img {
+  border-radius: 8px;
+}
+.textcontent {
+  padding-left: 20px;
+}
+.textcontent p {
+  font-weight: 400;
+}
+.newscontent2 {
+  flex-direction: row-reverse;
+}
+
+.Read {
+  border: none;
+  background-color: rgba(0, 106, 80, 1);
+  padding: 7px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+.donates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 80px;
 }
-.donate {
-  margin-bottom: 80px;
+.donate h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .newsletter {
   margin-bottom: 80px;
